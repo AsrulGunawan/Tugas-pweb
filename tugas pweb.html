@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<title>Tugas Peweb</title>
+<head>
+<title>Tugas Peweb</title>
+<style>
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+#g{
+ color: aqua;
+    background-color: aqua;
+   
+
+}
+b {
+ color: white;
+    background-color: black;
+    text-align: center;
+}
+
+nav {
+    float: left;
+height:570px;
+    width:150px;
+    margin: 2;
+    padding: 1em;
+ background-color:green;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+    
+nav ul a {
+    text-decoration: none;
+ 
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+height:570px;
+background:#eee;
+}
+</style>
+</head>
+<body>
+
+
+ <header>
+   <h1>Sistem Komputer</h1>
+<i class="material-icons">Universitas Tanjungpura</i>
+</header>
+<div class="container" align="center"id="g">asa</div>
+
+<div class="container"id="a">
+<nav>
+  <ul>
+    <table border="4"Width="70px"height="190"style="background-color:red;">
+<tr>
+<td><table border="4"Width="70px"height="190"style="background-color:red;">
+<tr>
+<td><table border="4"Width="70px"height="190"style="background-color: red;">
+<tr>
+<td><table border="4"Width="70px"height="190"style="background-color: red;">
+<tr>
+<td><table border="4"Width="70px"height="190"style="background-color: red;">
+<tr>
+<td><table border="4"Width="70px"height="190"style="background-color: yellow;">
+<td><button type="button"
+onclick="document.getElementById('saya').innerHTML = Date()">
+Tekan Untuk Melihat Tanggal dan Jam.</button>
+
+<p id="saya"></p></td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+  </ul>
+<ul>
+<table border="4"Width="70px"height="190"style="background-color: red;">
+<td><table border="4"Width="70px"height="190"style="background-color: red;">
+<td><table border="4"Width="70px"height="190"style="background-color: red;">
+<tr>
+<td><table border="4"Width="70px"height="190"style="background-color: red;">
+<tr>
+<td><table border="4"Width="70px"height="190"style="background-color: red;">
+<tr>
+<td><table border="4"Width="70px"height="190"style="background-color:yellow;">
+<td><button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Tekan Untuk Melihat Tanggal dan Jam.</button>
+
+<p id="demo"></p>
+
+</td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+</ul>
+</nav>
+
+<article>
+  <form method="POST" action="proses.php">
+  <input type="hidden" name="halaman" value="9">
+  <table border="1"height="80px"width="1500px">
+<tr>
+      <td colspan="2"><label for="nama"><h1>Formulir Data Mahasiswa Sistem Komputer Universitas Tanjungpura periode 2017-2018:</h1></label></td>
+    </tr>
+<tr>
+    <tr>
+      <td><label for="nama" placeholder="Apa Yang Anda Rasakan?">Nama Lengkap:</label></td>
+      <td><input type="text" name=" nama" id="nama" maxlength="40" size="70"></td>
+    </tr>
+<tr>
+      <td><label for="nama">Nama Panggilan:</label></td>
+      <td><input type="text" name=" np" id="np" maxlength="40" size="70"></td>
+    </tr>
+    <tr>
+      <td><label for="nama">NIM:</label></td>
+      <td><input type="text" name=" NIM" id="NIM" maxlength="40" size="70"></td>
+    </tr>
+ <tr>
+      <td><label for="nama">Fakultas:</label></td>
+      <td><input type="text" name=" Fak" id="Fak" maxlength="40" size="70"></td>
+    </tr>
+ <tr>
+      <td><label for="nama">Jurusan:</label></td>
+      <td><input type="text" name=" Ju" id="Ju" maxlength="40" size="70"></td>
+    </tr>
+<tr>
+      <td><label for="nama">Tempat Tanggal Lahir:</label></td>
+      <td><input type="text" name=" ttl" id="ttl" maxlength="40" size="70"></td>
+    </tr>
+    <tr>
+      <td><label for="jenkel">Jenis kelamin:</label></td>
+      <td><input type="radio" name="jenkel" id="jenkel" value="L">Laki-laki<br>
+          <input type="radio" name="jenkel" id="jenkel" value="P">Perempuan</td>
+    </tr>
+ <tr>
+      <td><label for="jenkel">Golongan Darah:</label></td>
+      <td><input type="checkbox"
+          name="bayar" id="bayar">A<input type="checkbox"
+          name="bayar" id="bayar">B<input type="checkbox"
+          name="bayar" id="bayar">O<input type="checkbox"
+          name="bayar" id="bayar">AB</td>
+    </tr>
+  <tr>
+      <td><label for="nama">Status:</label></td>
+      <td><input type="text" name=" st" id="st" maxlength="40" size="70"></td>
+    </tr>
+ <tr>
+<tr>
+      <td><label for="nama">Nomor Hp:</label></td>
+      <td><input type="text" name=" No" id="No" maxlength="40" size="70"></td>
+    </tr>
+<tr>
+      <td><label for="nama">Email:</label></td>
+      <td><input type="text" name=" em" id="em" maxlength="40" size="70"></td>
+    </tr>
+</tr>
+    <tr>
+      <td><label for="nama">Cita-cita:</label></td>
+      <td><input type="text" name=" ct" id="ct" maxlength="40" size="70"></td>
+    </tr>
+
+<tr>
+      <td><label for="kota">Hobi:</label></td>
+      <td><select name="kota" id="kota">
+            <option value="">Pilih Hobi Anda....</option><option value="bdg">Masak</option>
+            <option value="jkt">Olahraga</option><option value="sby">Game</option>
+	</option><option value="Bg">Berenang</option></option><option value="bdg">Masak</option>
+</option><option value="bdg">Memancing</option>
+</option><option value="bdg">Nonton film</option>
+</option><option value="bdg">Baca Buku</option>
+</option><option value="bdg">Baca Komik</option>
+          </select></td></tr>
+    <tr>
+    <tr>
+      <td><label for="alamat">Alamat:</label></td>
+      <td><textarea rows="3" cols="71.99"
+          name="alamat" id="alamat"></textarea></td>
+    
+  </table>
+
+<button onclick="myFunction()">Kirim</button>
+
+<script>
+function myFunction() {
+    alert("Data Terkirim!");
+}
+</script>
+  <input type="reset" value="Hapus">
+</form>
+</article>
+
+
+<footer>
+
+
+<div class="topnav">
+  <a href="#"></a>
+  <a href="#"></a>
+  <a href="#"><a href="https://www.w3schools.com/">Sumber:w3schools.com</a></a>
+</div>
+</footer>
+
+</div>
+
+</body>
+</html>
